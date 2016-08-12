@@ -13,7 +13,11 @@
     "monolog/monolog": "~1.7",
     "twig/twig": "^1.19",
     "symfony/twig-bridge": "^2.7",
-    "herrera-io/silex-pdo"
+    
+  },
+
+  "require": {
+  	"herrera-io/silex-pdo": "1.*"
   }
 }
 
