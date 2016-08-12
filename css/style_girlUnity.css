@@ -11,6 +11,7 @@
       left: 0;
       top: 0;
       background-color: rgba(245,245,228, 0.9);
+      font-family: 'Hind Guntur', sans-serif;
   }
 .navbar-nav  li a:hover {
       color: black !important;
@@ -20,37 +21,55 @@
   color: black;
   font-weight: bold;
 }
+.navbar-brand {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+  padding: 7px 14px;
+}
+
 body {
-      font-family: 'Hind Guntur', sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
       text-align: center;
       background-color: rgb(176,224,230);
-  }
-.container-fluid {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      font-family: 'Roboto Condensed', sans-serif;
   }
 h2{
-  font-family: 'Rancho', cursive;
   font-size: 100px;
   color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 .button {
   display: inline-block;
   border-radius: 0px;
-  background-color: rgba(192,192,192,0.5);
-  border: none;
+  background-color: rgba(192,192,192,0);
+  border: double;
+  border-color: white;
   color: #FFFFFF;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
   padding: 20px;
   width: 270px;
-  height: 150px;
+  height: 120px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+.button-main {
+      padding-top: 100px;
+      padding-bottom: 130px;
+  }
+#smallbutton{
+  font-size: 15px;
+  display: inline-block;
 }
 
 .button span {
@@ -82,9 +101,33 @@ h2{
       margin-bottom: 45px;
   }
 
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #f4511e;
+footer { 
+    background-color: rgb(119,136,153);
+    max-height: 100%;
+    text-decoration: none;
+  }
+footer a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+#bottom{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
