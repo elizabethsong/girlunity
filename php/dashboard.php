@@ -1,4 +1,6 @@
-<?php?>
+<?php
+
+?>
 
 <?php 
 require('db.php');
@@ -6,17 +8,20 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <!DOCTYPE html>
 <html>
 <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>Dashboard | girl Unity</title>
-		<link rel="stylesheet" type="text/css" href="file:///C:/Users/Elizabeth%20Song/Documents/girl_unity_proj/css/style.css">
+	<meta charset="utf-8">
+	<title>My Profile | girl unity</title>
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 </head>
 <body>
 <div class="form">
-<p>This is another secured page.</p>
+<h1>girl unity</h1>
+<h3>My Profile</h3>
+<p>Welcome <?php echo $_SESSION['username']; ?>!</p>
+<p>This is secure area.</p>
 <p><a href="index.php">Home</a></p>
 <a href="logout.php">Logout</a>
 </div>

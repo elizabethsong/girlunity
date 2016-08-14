@@ -1,38 +1,68 @@
-body{
-	font-family: Arial, Sans-Serif;
-    background-color: rgb(176,224,230);
-  }
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgb(176,224,230);
+	color: white;
+	text-align: center;
+}
 .clearfix:before, .clearfix:after { 
 	content: ""; 
-	display: table; }
+	display: table; 
+}
 .clearfix:after { 
-	clear: both; }
-a {
-	color:#78b941; 
-	text-decoration:none;}
-a:hover {
-	text-decoration:underline;}
+	clear: both; 
+}
+body a {
+	color: rgb(119,136,153); 
+	text-decoration:none;
+}
+body a:hover {
+	text-decoration:underline;
+}
 .form{
-	width: 300px; 
-	margin: 0 auto;}
+	width: 400px; 
+	margin: 0 auto;
+}
 input[type='text'], input[type='email'], input[type='password'] {
-	width: 200px; 
-	border-radius: 2px;
-	border: 1px solid #CCC; 
-	padding: 10px; 
-	color: #333; 
+	width: 400px; 
+	border-radius: 2px;border: 1px solid #CCC; 
+	padding: 10px; color: #333; 
 	font-size: 14px; 
-	margin-top: 10px;}
+	margin-top: 10px;
+	font-family:Arial, Sans-Serif;
+}
 input[type='submit']{
 	padding: 10px 25px 8px; 
 	color: #fff; 
-	background-color: #78b941; 
+	background-color: rgb(0,178,200); 
 	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
 	font-size: 16px; 
 	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
-	border: 1px solid #6faf38; 
+	border: 0px; 
 	border-radius: 2px; 
 	margin-top: 10px; 
-	cursor:pointer;}
+	cursor:pointer;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 input[type='submit']:hover {
-	background-color: #80c248;}
+	background-color: rgb(112,128,144);
+}
+h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	text-align: center;
+}
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+#lightbulb{
+	display: block;
+    margin: 0 auto;
+	width: 100px;
+}

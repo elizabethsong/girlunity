@@ -1,3 +1,6 @@
+<?php
+?>
+
 
 <?php
  
@@ -25,5 +28,3 @@ if (!$select_db){
     die("Database Selection Failed" . mysql_error());
 }
 */
-
-?>
