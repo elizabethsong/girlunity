@@ -112,7 +112,7 @@ body{
 }
 
 .cn-content{
-	background: #80B8CE url(../images/1.jpg) no-repeat center center;
+	background-color: lightblue;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; 
 	text-align: left;
 	padding: 20px 20px 5px;
