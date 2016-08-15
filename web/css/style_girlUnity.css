@@ -65,7 +65,7 @@ h2{
   letter-spacing: 2px;
 }
 .button-main {
-      padding-top: 100px;
+      padding-top: 55px;
       padding-bottom: 130px;
   }
 #smallbutton{
@@ -132,3 +132,9 @@ footer a:active {
   padding-bottom: 10px;
 }
 
+h6{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
