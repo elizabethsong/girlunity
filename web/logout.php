@@ -1,8 +1,5 @@
 <?php
-/*
-Author: Javed Ur Rehman
-Website: https://htmlcssphptutorial.wordpress.com
-*/
+
 ?>
 
 <?php

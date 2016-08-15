@@ -38,7 +38,7 @@
 ?>
 
 <h1>girl unity</h1> 
-<img id="lightbulb" src="img/faviconteal2.png" alt="girl unity Lightbulb"> 
+<img id="lightbulb" src="images/faviconteal2.png" alt="girl unity Lightbulb"> 
 <h3>Log In</h3>
 
 <div class="form">
