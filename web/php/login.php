@@ -6,11 +6,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Login | girl unity</title>
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="../css/style.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicondrawn.png">
 </head>
 <body>
 <?php
@@ -38,7 +40,7 @@
 ?>
 
 <h1>girl unity</h1> 
-<img id="lightbulb" src="images/faviconteal2.png" alt="girl unity Lightbulb"> 
+<img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
 <h3>Log In</h3>
 
 <div class="form">

@@ -10,7 +10,6 @@
       right: 0;
       left: 0;
       top: 0;
-
       background-color: rgba(245,245,228, 0.9);
       font-family: 'Hind Guntur', sans-serif;
   }
@@ -33,44 +32,37 @@
   width: auto;
   padding: 7px 14px;
 }
-
 body {
+      font-family: 'Hind Guntur', sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      text-align: center;
-      background-color: rgb(176,224,230);
-      font-family: 'Roboto Condensed', sans-serif;
+      background-image: url("http://cdn.playbuzz.com/cdn/bcf825aa-678c-4a05-8d51-638e3a77f666/2e559ef4-ba78-42e3-8813-6731c80f4248.jpg");
+      background-position: center;
+      background-size: cover;
+      
   }
+
 h2{
-  font-size: 100px;
+  font-family: 'Crimson Text', serif;
   color: white;
-  font-family: 'Shadows Into Light', cursive;
+  font-size: 70px;
+  text-align: center;
 }
 .button {
   display: inline-block;
   border-radius: 0px;
-  background-color: rgba(192,192,192,0);
-  border: double;
-  border-color: white;
+  background-color: rgba(192,192,192,0.5);
+  border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 20px;
+  font-size: 28px;
   padding: 20px;
   width: 270px;
-  height: 120px;
+  height: 150px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 2px;
-}
-.button-main {
-      padding-top: 100px;
-      padding-bottom: 130px;
-  }
-#smallbutton{
-  font-size: 15px;
-  display: inline-block;
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 .button span {
@@ -102,10 +94,32 @@ h2{
       margin-bottom: 45px;
   }
 
+h3{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: left;
+}
+h1{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: center;
+}
+p.test{
+  word-wrap: break-word;
+}
+
+
+h4{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: center; 
+  font-size: 45px;
+}
 footer { 
     background-color: rgba(119,136,153,0.8);
     max-height: 100%;
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 footer a:link, a:visited {
     text-decoration: none;
@@ -121,14 +135,19 @@ footer a:active {
     text-decoration: none;
     color: white;
 }
-
 .container-fluid{
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
 #bottom{
   padding-top: 50px;
   padding-bottom: 50px;
-}
 
+}
+h3{
+  text-align: left;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 120px;
+}
