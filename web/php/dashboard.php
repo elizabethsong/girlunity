@@ -50,7 +50,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 				
 				<nav class="codrops-demos">
 					
-					<a class="current-demo" href="index2.html#slide-main">Explore</a>
+					<a class="current-demo" href="dashboard.php#slide-main">Explore</a>
 					
 				</nav>
 			</header>
