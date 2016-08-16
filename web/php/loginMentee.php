@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login- Mentee| girl unity</title>
+	<title>Login (Mentee)| girl unity</title>
 	<link rel="stylesheet" href="../css/style.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 <h1>girl unity</h1> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Log In- Mentee</h3>
+<h3>Log In (Mentee)</h3>
 
 <div class="form">
 <form action="" method="post" name="login">
