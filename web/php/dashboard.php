@@ -27,6 +27,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
 <p>This is secure area.</p>
 <a href="message.php">Want to message someone instead?</a>
+<p>If the webcam is not working, either change your browser to Firefox or click <a href="https://appear.in/girl-unity">here.</a></p>
 </div>
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
 
