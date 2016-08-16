@@ -19,7 +19,7 @@
 <body>
 <div class="form">
 <h1>girl unity</h1>
-<h3>Home</h3>
+<h3>Dashboard</h3>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
 <p>This is secure area.</p>
 <p><a href="dashboard.php">My Profile</a></p>

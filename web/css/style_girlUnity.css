@@ -39,7 +39,7 @@ body {
       color: #f5f6f7;
       text-align: center;
       font-family: 'Roboto Condensed', sans-serif;
-      background-image: url("https://i.imgsafe.org/2082672c4a.jpg");
+      
   }
 h2{
   font-size: 100px;
@@ -122,9 +122,10 @@ footer a:active {
     color: white;
 }
 
-.container-fluid{
-  padding-top: 200px;
+.bg-1{
+  padding-top: 150px;
   padding-bottom: 100px;
+  background-image: url("https://i.imgsafe.org/2082672c4a.jpg");
 }
 
 #bottom{
@@ -137,4 +138,27 @@ h6{
   font-size: 40px;
   padding-top: 20px;
   letter-spacing: 3px;
+}
+
+.bg-2{
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+h3{
+  font-family: 'Hind Guntur', sans-serif;
+  letter-spacing: 5px;
+}
+  #link1{
+    visibility: hidden;
+  }
+#miss{
+  background-color: rgba(32,178,170,0.95);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#missText{
+  letter-spacing: 2px;
 }

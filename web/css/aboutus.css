@@ -37,17 +37,25 @@ body {
       font-family: 'Hind Guntur', sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      background-image: url("http://cdn.playbuzz.com/cdn/bcf825aa-678c-4a05-8d51-638e3a77f666/2e559ef4-ba78-42e3-8813-6731c80f4248.jpg");
-      background-position: center;
-      background-size: cover;
-      
+      background-color: rgb(135,206,235);
+      text-align: center;
+      padding-top: 100px;
   }
 
 h2{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Shadows Into Light', cursive;
   color: white;
   font-size: 70px;
   text-align: center;
+}
+#meet{
+
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 5px;
+
 }
 .button {
   display: inline-block;
@@ -111,16 +119,17 @@ p.test{
 
 
 h4{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
   color: white;
   text-align: center; 
-  font-size: 45px;
+  font-size: 40px;
 }
 footer { 
-    background-color: rgba(119,136,153,0.8);
+    background-color: rgba(0,0,0,0.9);
     max-height: 100%;
     text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
+
   }
 footer a:link, a:visited {
     text-decoration: none;
@@ -136,19 +145,19 @@ footer a:active {
     text-decoration: none;
     color: white;
 }
-.container-fluid{
-  padding-top: 150px;
-  padding-bottom: 100px;
+
+container-fluid{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 10px;
 }
 
 #bottom{
-  padding-top: 50px;
-  padding-bottom: 50px;
-
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 h3{
   text-align: left;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }

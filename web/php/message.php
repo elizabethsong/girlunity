@@ -23,16 +23,30 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <body>
 <div class="form">
 <h1>girl unity</h1>
-<h3><?php echo $_SESSION['username']; ?>'s Profile</h3>
+<h3><?php echo $_SESSION['username']; ?>'s Messaging Chat</h3>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
-<p>This is secure area.</p>
+<p>Start chatting!</p>
 </div>
-<iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/57a9f99937f9b71822fbf032/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 <div class="container">
-<a href="message.php">Want to message someone instead?</a>
+<a href="dashboard.php">Profile</a>
 <p><a href="index.php">Dashboard</a></p>
 <a href="logout.php">Logout</a>
 </div>
 </body>
 </html>
+
