@@ -50,7 +50,7 @@
 <input name="submit" type="submit" value="Login" />
 </form>
 <p>Log in as a mentee instead? <a href='loginMentee.php'>Log In Here</a></p>
-<p>Not registered yet? <br><a href='registration.php'>Register As a Mentor</a><br><a href='registrationMentee.php'>Register As a Mentee</a></p>
+<p>Not registered yet? Register As: <a href='registration.php'>A Mentor</a> | <a href='registrationMentee.php'>A Mentee</a></p>
 </div>
 <?php } ?>
 </body>
