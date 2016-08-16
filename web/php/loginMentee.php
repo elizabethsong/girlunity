@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login- Mentor| girl unity</title>
+	<title>Login- Mentee| girl unity</title>
 	<link rel="stylesheet" href="../css/style.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 <h1>girl unity</h1> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Log In- Mentor</h3>
+<h3>Log In- Mentee</h3>
 
 <div class="form">
 <form action="" method="post" name="login">
@@ -49,7 +49,7 @@
 <input type="password" name="password" placeholder="Password" required />
 <input name="submit" type="submit" value="Login" />
 </form>
-<p>Log in as a mentee instead? <a href='loginMentee.php'>Log In Here</a></p>
+<p>Login as a mentor instead? <a href='login.php'>Log In Here</a></p>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 </div>
 <?php } ?>

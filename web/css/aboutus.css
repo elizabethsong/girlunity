@@ -162,18 +162,27 @@ h3{
   padding-left: 100px;
   padding-bottom: 40px;
 }
-a:hover, #su:hover, #ka:hover{
+a:hover, #su:hover, #ka:hover, #el:hover{
   text-decoration: none;
   color: yellow;
 }
 
-a, #su, #ka{
+a, #su, #ka, #el{
   color: blue;
 }
 hr {
   border: dashed;
   height: 5px;
 }
-  #link1{
+  #link1,#link2,#link3{
     visibility: hidden;
   }
+p{
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#nolink:hover{
+  color: white;
+}

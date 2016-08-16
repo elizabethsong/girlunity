@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Registration- Mentor | girl unity</title>
+    <title>Registration- Mentee | girl unity</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
@@ -64,7 +64,7 @@
 
 <h1>girl unity</h1> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Registration- Mentor</h3>
+<h3>Registration- Mentee</h3>
 <div class="form">
 
 <form name="registration" action="" method="post">
@@ -75,8 +75,7 @@
 
 
 </form>
-
-<p>Register as a mentee instead? <a href='registrationMentee.php'>Register Here</a></p>
+<p>Register as a mentor instead? <a href='registration.php'>Log In Here</a></p>
 <p>Already registered? <a href='login.php'>Log In Here</a></p>
 </div>
 <?php } ?>
