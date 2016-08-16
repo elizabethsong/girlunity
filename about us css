@@ -1,0 +1,106 @@
+.navbar {
+      position: fixed;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      right: 0;
+      left: 0;
+      top: 0;
+      background-color: rgba(245,245,228, 0.9);
+  }
+.navbar-nav  li a:hover {
+      color: black !important;
+  }
+#name{
+  font-family: 'Limelight', cursive;
+}
+body {
+      font-family: 'Hind Guntur', sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      background-image: url("http://cdn.playbuzz.com/cdn/bcf825aa-678c-4a05-8d51-638e3a77f666/2e559ef4-ba78-42e3-8813-6731c80f4248.jpg");
+      background-position: center;
+      background-size: cover;
+      padding-left: 120px;
+  }
+.container-fluid {
+      padding-top: 200px;
+      padding-bottom: 200px;
+  }
+h2{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: rgba(192,192,192,0.5);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 270px;
+  height: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.margin {
+      margin-bottom: 45px;
+  }
+
+h3{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: left;
+}
+h1{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: center;
+}
+p.test{
+  word-wrap: break-word;
+}
+
+
+h4{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  text-align: center; 
+  font-size: 45px;
+}
