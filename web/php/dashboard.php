@@ -10,8 +10,8 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <head>
 	<meta charset="utf-8">
 	<title>My Profile | girl unity</title>
-	<link rel="stylesheet" href="../css/demo.css" />
-	<link rel="stylesheet" href="../css/style2.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/style.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
