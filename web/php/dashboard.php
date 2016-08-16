@@ -26,11 +26,11 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <h3><?php echo $_SESSION['username']; ?>'s Profile</h3>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
 <p>This is secure area.</p>
+<a href="message.php">Want to message someone instead?</a>
 </div>
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
 
 <div class="container">
-<a href="message.php">Want to message someone instead?</a>
 <p><a href="index.php">Dashboard</a></p>
 <a href="logout.php">Logout</a>
 </div>

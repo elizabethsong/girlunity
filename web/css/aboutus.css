@@ -124,6 +124,7 @@ h4{
   color: white;
   text-align: center; 
   font-size: 40px;
+  padding-top: 20px;
 }
 footer { 
     background-color: rgba(0,0,0,0.9);
@@ -161,3 +162,18 @@ h3{
   padding-left: 100px;
   padding-bottom: 40px;
 }
+a:hover, #su:hover, #ka:hover{
+  text-decoration: none;
+  color: yellow;
+}
+
+a, #su, #ka{
+  color: blue;
+}
+hr {
+  border: dashed;
+  height: 5px;
+}
+  #link1{
+    visibility: hidden;
+  }
