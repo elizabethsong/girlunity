@@ -142,19 +142,20 @@ h6{
 }
 
 .bg-2{
-  background-color: rgb(32,178,170);
-  padding-top: 50px;
-  padding-bottom: 100px;
+  background-color: rgb(112,128,144);
+  padding-top: 0px;
+  padding-bottom: 25px;
 }
 h3{
   font-family: 'Hind Guntur', sans-serif;
   letter-spacing: 5px;
+  font-size: 50px;
 }
   #link1{
     visibility: hidden;
   }
 #miss{
-  background-color: rgb(32,178,170);
+  background-color: rgb(112,128,144);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
@@ -163,4 +164,9 @@ h3{
 #missText{
   letter-spacing: 2px;
   font-size: 30px;
+
 }
+#nolink:hover{
+  color: white;
+}
+

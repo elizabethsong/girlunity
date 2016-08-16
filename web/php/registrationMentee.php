@@ -76,7 +76,7 @@
 
 </form>
 <p>Register as a mentor instead? <a href='registration.php'>Log In Here</a></p>
-<p>Already registered? <a href='login.php'>Log In Here</a></p>
+<p>Already registered? <a href='loginRegistration.php'>Log In Here</a></p>
 </div>
 <?php } ?>
 </body>

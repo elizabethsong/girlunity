@@ -37,9 +37,10 @@ body {
       font-family: 'Hind Guntur', sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      background-color: rgb(135,206,235);
+      background-color: rgb(72,209,204);
       text-align: center;
       padding-top: 100px;
+
   }
 
 h2{
@@ -174,7 +175,7 @@ hr {
   border: dashed;
   height: 5px;
 }
-  #link1,#link2,#link3{
+  #link1,#link2,#link3,#link4{
     visibility: hidden;
   }
 p{
@@ -182,7 +183,20 @@ p{
   text-align: center;
   letter-spacing: 2px;
     font-family: 'Roboto Condensed', sans-serif;
+          padding-right: 100px;
+      padding-left: 100px;
+
+}
+#e{
+  padding-bottom: 100px;
 }
 #nolink:hover{
   color: white;
+}
+
+.text{
+  padding-bottom: 20px;
+}
+#contact{
+  padding-bottom: 0px;
 }
