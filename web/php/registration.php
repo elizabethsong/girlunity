@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Registration (Mentor) | girl unity</title>
+    <title>Registration for Mentors | girl unity</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">

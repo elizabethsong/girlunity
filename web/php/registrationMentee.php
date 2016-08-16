@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Registration (Mentee) | girl unity</title>
+    <title>Registration for Mentees | girl unity</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
@@ -75,8 +75,8 @@
 
 
 </form>
-<p>Register as a mentor instead? <a href='registration.php'>Log In Here</a></p>
-<p>Already registered? <a href='loginRegistration.php'>Log In Here</a></p>
+<p>Register as a mentor instead? <a href='registration.php'>Register Here</a></p>
+<p>Already registered? <a href='login.php'>Log In Here</a></p>
 </div>
 <?php } ?>
 </body>
