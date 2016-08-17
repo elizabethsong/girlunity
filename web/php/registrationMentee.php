@@ -109,7 +109,7 @@
 
 </form>
 <p>Register as a mentor instead? <a href='registration.php'>Register Here</a></p>
-<p id="footersep">Already registered? <a href='login.php'>Log In Here</a></p>
+<p id="footerSep">Already registered? <a href='login.php'>Log In Here</a></p>
 </div>
 
         <footer class="container-fluid text-center" id="bottom">

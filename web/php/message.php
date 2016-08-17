@@ -27,7 +27,10 @@ include("auth.php"); //include auth.php file on all secure pages ?>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicondrawn.png">
 
- 
+ 	<script type='text/javascript'>
+	(function() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//d2yy16lkdmfg04.cloudfront.net/resource/chat.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	})(); window.embeddedChatAsyncInit = function() { embeddedChat.init("8081"); }
+	</script>
 </head>
 <body>
 
@@ -75,6 +78,8 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+<div class="embedded-chat" style="height: 700px; width: 500px;" ></div>
 
 <div class="container">
 <a href="dashboard.php">Profile</a>
