@@ -28,10 +28,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicondrawn.png">
 
 
- 	<script type='text/javascript'>
-	(function() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//d2yy16lkdmfg04.cloudfront.net/resource/chat.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-	})(); window.embeddedChatAsyncInit = function() { embeddedChat.init("8081"); }
-	</script>
+
 </head>
 <body>
 
@@ -70,7 +67,8 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 </div>
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
 
-<div class="embedded-chat" style="height: 500px; width: 500px;" ></div>
+<div id="tlkio" data-channel="girl-unity" style="width:100%;height:400px;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
+
 
 <div class="container">
 <p><a href="index.php">Dashboard</a></p>
