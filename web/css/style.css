@@ -143,3 +143,6 @@ container-fluid{
 #nolink:hover{
   color: white;
 }
+.embedded-chat {
+    margin: 0 auto; 
+}

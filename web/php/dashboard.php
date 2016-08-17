@@ -27,7 +27,11 @@ include("auth.php"); //include auth.php file on all secure pages ?>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicondrawn.png">
 
- 
+
+ 	<script type='text/javascript'>
+	(function() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//d2yy16lkdmfg04.cloudfront.net/resource/chat.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	})(); window.embeddedChatAsyncInit = function() { embeddedChat.init("8081"); }
+	</script>
 </head>
 <body>
 
@@ -60,11 +64,13 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <h1>girl unity</h1>
 <h3><?php echo $_SESSION['username']; ?>'s Profile</h3>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
-<p>This is secure area.</p>
-<a href="message.php">Want to message someone instead?</a>
+<p>Both video chat and messaging are available.</p>
+
 <p>If the webcam is not working, either change your browser to Firefox or click <a href="https://appear.in/girl-unity">here.</a></p>
 </div>
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
+
+<div class="embedded-chat" style="height: 500px; width: 500px;" ></div>
 
 <div class="container">
 <p><a href="index.php">Dashboard</a></p>
