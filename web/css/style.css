@@ -46,6 +46,7 @@ input[type='submit']{
 	display: block;
     margin: 0 auto;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 input[type='submit']:hover {
 	background-color: rgb(112,128,144);
