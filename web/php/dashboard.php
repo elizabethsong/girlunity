@@ -68,7 +68,15 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 
 <div class="container">
 <p><a href="index.php">Dashboard</a></p>
-<a href="logout.php">Logout</a>
+<p id="footerSep"><a href="logout.php">Logout</a></p>
 </div>
+
+		<footer class="container-fluid text-center" id="bottom">
+		  <p id="contact">Contact Us: <a href="mailto:girlunity.contact@gmail.com">girlunity.contact@gmail.com</a></p> 
+		  <ul>Elizabeth Song</ul>
+		  <ul>Katrina Sarango</ul>
+		  <ul>Suchita Mistry</ul>
+		  <ul><a id="nolink" href="aboutus_funny.html">Girl Unity™ 2016</a></ul>
+		</footer>
 </body>
 </html>
