@@ -82,8 +82,10 @@
 <input type="password" name="password" placeholder="Password" required />
 <input name="submit" type="submit" value="Login" />
 </form>
-<p>Log in as a mentee instead? <a href='loginMentee.php'>Log In Here</a></p>
+
 <p id="footerSep">Not registered yet? Register As: <a href='registration.php'>A Mentor</a> | <a href='registrationMentee.php'>A Mentee</a></p>
+
+</div>
 
 		<footer class="container-fluid text-center" id="bottom">
 		  <p id="contact">Contact Us: <a href="mailto:girlunity.contact@gmail.com">girlunity.contact@gmail.com</a></p> 
@@ -92,7 +94,7 @@
 		  <ul>Suchita Mistry</ul>
 		  <ul><a id="nolink" href="aboutus_funny.html">Girl Unity™ 2016</a></ul>
 		</footer>
-</div>
+
 <?php } ?>
 </body>
 </html>
