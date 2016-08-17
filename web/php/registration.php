@@ -84,10 +84,10 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#mission">MISSION</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="php/dashboard.php">MY PROFILE</a></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../index.html#mission">MISSION</a></li>
+                <li><a href="../aboutus.html">ABOUT US</a></li>
+                <li><a href="dashboard.php">MY PROFILE</a></li>
                 <li><a href="mailto:girlunity.contact@gmail.com">CONTACT</a></li>
               </ul>
             </div>
@@ -109,7 +109,7 @@
 
 </form>
 
-<p>Register as a mentee instead? <a href='registrationMentee.php'>Register Here</a></p>
+<p id="needpadding">Register as a mentee instead? <a href='registrationMentee.php'>Register Here</a></p>
 <p>Already registered? <a href='login.php'>Log In Here</a></p>
 </div>
 <?php } ?>
