@@ -60,9 +60,45 @@ h1{
 	color: white;
 	font-size: 50px;
 	text-align: center;
+	padding-top: 150px;
 }
 #lightbulb{
 	display: block;
     margin: 0 auto;
 	width: 100px;
+}
+.navbar {
+      position: fixed;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      right: 0;
+      left: 0;
+      top: 0;
+
+      background-color: rgba(248,248,255,0.9);
+      font-family: 'Hind Guntur', sans-serif;
+  }
+.navbar-nav  li a:hover {
+      color: black !important;
+  }
+#name{
+  font-family: 'Shadows Into Light', cursive;
+  color: black;
+  font-weight: bold;
+}
+.navbar-brand {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+  padding: 7px 14px;
 }
