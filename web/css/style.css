@@ -140,3 +140,6 @@ container-fluid{
 #footerSep{
 	padding-bottom: 50px;
 }
+#nolink:hover{
+  color: white;
+}
