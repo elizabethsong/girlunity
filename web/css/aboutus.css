@@ -125,16 +125,8 @@ h3{
   text-align: left;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 40px;
-}
-a:hover, #su:hover, #ka:hover, #el:hover{
-  text-decoration: none;
-  color: yellow;
 }
 
-a, #su, #ka, #el{
-  color: blue;
-}
 hr {
   border: dashed;
   height: 5px;
@@ -158,6 +150,11 @@ p{
   color: white;
 }
 
+#nolink{
+  color: white;
+  text-decoration: none;
+}
+
 .text{
   padding-bottom: 20px;
 }
@@ -166,4 +163,35 @@ p{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
 }
+
+a:link{
+  color: blue;
+}
+
+a:hover, #su:hover, #ka:hover, #el:hover, #top:hover{
+  text-decoration: none;
+  color: yellow;
+}
+
+a, #su, #ka, #el{
+  color: blue;
+}
+
+#top a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+
+#top a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+#top a:hover{
+  text-decoration: none;
+  color: yellow;
+}
+
+
 
