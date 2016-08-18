@@ -164,11 +164,11 @@ p{
   font-size: 15px;
 }
 
-a:link{
+a:link, a:active, a:visited{
   color: blue;
 }
 
-a:hover, #su:hover, #ka:hover, #el:hover, #top:hover{
+a:hover, #su:hover, #ka:hover, #el:hover{
   text-decoration: none;
   color: yellow;
 }
@@ -177,21 +177,8 @@ a, #su, #ka, #el{
   color: blue;
 }
 
-#top a:link, a:visited {
-    text-decoration: none;
-    color: blue;
-}
 
 
-#top a:active {
-    text-decoration: none;
-    color: blue;
-}
-
-#top a:hover{
-  text-decoration: none;
-  color: yellow;
-}
 
 
 
