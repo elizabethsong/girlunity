@@ -150,7 +150,7 @@ h6{
 }
 
 .bg-2{
-  background-color: rgb(112,128,144);
+  background-color: rgb(25,25,112);
   padding-top: 0px;
   padding-bottom: 25px;
 }
@@ -163,7 +163,7 @@ h3{
     visibility: hidden;
   }
 #miss{
-  background-color: rgb(112,128,144);
+  background-color: rgb(25,25,112);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
