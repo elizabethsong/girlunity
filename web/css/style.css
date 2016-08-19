@@ -172,6 +172,10 @@ container-fluid{
   background-image: url(https://i.imgsafe.org/606d8777d4.jpg);
   padding-top: 200px;
 }
+#nolink a:hover{
+  color: white !important;
+}
+
 a:link, a:visited, a:active{
   color: yellow;
   text-decoration: none;
@@ -179,9 +183,5 @@ a:link, a:visited, a:active{
 a:hover{
   color: rgb(240,230,140);
   text-decoration: none !important;
-}
-#nolink a:link, a:visited, a:active{
-  color: pink;
-  text-decoration: none;
 }
 
