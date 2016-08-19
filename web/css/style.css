@@ -164,7 +164,7 @@ container-fluid{
   letter-spacing: 2px;
   text-decoration: none;
 }
-#nolink a{
+#nolink a:link, a:visited, a:active{
   color:white;
 }
 #nolink a:hover{
