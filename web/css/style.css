@@ -164,8 +164,10 @@ container-fluid{
   letter-spacing: 2px;
   text-decoration: none;
 }
-
-#nolink:hover{
+#nolink a{
+  color:white;
+}
+#nolink a:hover{
   color: white;
 }
 .embedded-chat {
