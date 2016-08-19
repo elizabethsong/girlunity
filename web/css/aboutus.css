@@ -168,12 +168,12 @@ a:link, a:active, a:visited{
   color: blue;
 }
 
-a:hover, #su:hover, #ka:hover, #el:hover{
+a:hover, #su:hover, #ka:hover, #el:hover, #vi:hover{
   text-decoration: none;
   color: yellow;
 }
 
-a, #su, #ka, #el{
+a, #su, #ka, #el, #vi{
   color: blue;
 }
 
