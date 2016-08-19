@@ -94,10 +94,10 @@
           </div>
         </nav>
 
+<div class="container-fluid bg-2">
 
-<h1>girl unity</h1> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Registration (Mentor)</h3>
+<h1>Registration (Mentor)</h1>
 <div class="form">
 
 <form name="registration" action="" method="post">
@@ -108,9 +108,12 @@
 
 
 </form>
+</div>
 
-<p id="needpadding">Register as a mentee instead? <a href='registrationMentee.php'>Register Here</a></p>
-<p id="footerSep">Already registered? <a href='login.php'>Log In Here</a></p>
+
+<p id="needpadding">Register as a mentee instead? <a href='registrationMentee.php' style="color: blue;">Register Here</a></p>
+<p id="footerSep">Already registered? <a href='login.php' style="color: blue;">Log In Here</a></p>
+
 </div>
 
         <footer class="container-fluid text-center" id="bottom">

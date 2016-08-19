@@ -6,6 +6,10 @@ body {
   text-align: center;
   letter-spacing: 2px;
 }
+.bg-2{
+  background-color: rgba(255,215,0, 0.9);
+  padding-top: 70px;
+}
 .clearfix:before, .clearfix:after { 
   content: ""; 
   display: table; 
@@ -63,7 +67,6 @@ h1{
   display: inline;
   height: auto;
 width: 30%;
-  padding-top: 120px;
 
 }
 #lightbulb{
@@ -74,13 +77,14 @@ display: inline-block;
 float: center;
 }
 #container{
+    padding-top: 120px;
   overflow:hidden;
 position:relative;
 width:90%;
 margin-bottom:20px;
 margin-top:20px;
 margin-left:auto;
-  padding-top: 120px;
+
 margin-right:auto;
 }
 .navbar {
@@ -120,6 +124,7 @@ margin-right:auto;
 }
 #needpadding{
   padding-top: 10px;
+  font-size: 21px;
 }
 footer { 
     background-color: rgba(0,0,0,0.9);
@@ -159,6 +164,7 @@ container-fluid{
   letter-spacing: 2px;
   text-decoration: none;
 }
+
 #nolink:hover{
   color: white;
 }
@@ -177,5 +183,4 @@ a:hover{
   color: rgb(240,230,140);
   text-decoration: none !important;
 }
-
 

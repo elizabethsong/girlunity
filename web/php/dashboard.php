@@ -63,7 +63,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
 <p>Both video chat and messaging are available.</p>
 
-<p>If the webcam is not working, either change your browser to Firefox or click <a href="https://appear.in/girl-unity">here.</a></p>
+<p>If the webcam is not working, either change your browser (Firefox works best) or click <a href="https://appear.in/girl-unity">here if you are using either Chrome, Opera, or Firefox.</a></p>
 </div>
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
 
