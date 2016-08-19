@@ -72,9 +72,11 @@
 		</nav>
 
 <div class="container-fluid bg-1">
-<h1>girl unity</h1> 
+
+<div id="container">
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Log In</h3>
+<h1>Log In</h1>
+</div>
 
 <div class="form">
 <form action="" method="post" name="login">
