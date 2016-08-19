@@ -71,7 +71,7 @@
 		  </div>
 		</nav>
 
-
+<div class="container-fluid bg-1">
 <h1>girl unity</h1> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
 <h3>Log In</h3>
@@ -82,11 +82,12 @@
 <input type="password" name="password" placeholder="Password" required />
 <input name="submit" type="submit" value="Login" />
 </form>
+</div>
 
 <p id="footerSep">Not registered yet? Register As: <a href='registration.php'>A Mentor</a> | <a href='registrationMentee.php'>A Mentee</a></p>
 
-</div>
 
+</div>
 		<footer class="container-fluid text-center" id="bottom">
 		  <p id="contact">Contact Us: <a href="mailto:girlunity.contact@gmail.com">girlunity.contact@gmail.com</a></p> 
 		  <ul>Elizabeth Song</ul>

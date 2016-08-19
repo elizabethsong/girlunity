@@ -1,72 +1,70 @@
 
 body {
-	font-family: 'Roboto Condensed', sans-serif;
-	background-color: rgb(176,224,230);
-	color: white;
-	text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: rgb(176,224,230);
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
 }
 .clearfix:before, .clearfix:after { 
-	content: ""; 
-	display: table; 
+  content: ""; 
+  display: table; 
 }
 .clearfix:after { 
-	clear: both; 
+  clear: both; 
 }
 body a {
-	color: rgb(119,136,153); 
-	text-decoration:none;
+  color: rgb(119,136,153); 
+  text-decoration:none;
 }
-body a:hover {
-	text-decoration:underline;
-}
+
 .form{
-	width: 400px; 
-	margin: 0 auto;
+  width: 400px; 
+  margin: 0 auto;
 }
 input[type='text'], input[type='email'], input[type='password'] {
-	width: 400px; 
-	border-radius: 2px;border: 1px solid #CCC; 
-	padding: 10px; color: #333; 
-	font-size: 14px; 
-	margin-top: 10px;
-	font-family:Arial, Sans-Serif;
+  width: 400px; 
+  border-radius: 2px;border: 1px solid #CCC; 
+  padding: 10px; color: #333; 
+  font-size: 14px; 
+  margin-top: 10px;
+  font-family:Arial, Sans-Serif;
 }
 input[type='submit']{
-	padding: 10px 25px 8px; 
-	color: #fff; 
-	background-color: rgb(0,178,200); 
-	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
-	font-size: 16px; 
-	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
-	border: 0px; 
-	border-radius: 2px; 
-	margin-top: 10px; 
-	cursor:pointer;
-	font-family: 'Roboto Condensed', sans-serif;
-	display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding-bottom: 10px;
+  padding: 10px 25px 8px; 
+  color: #fff; 
+  background-color: rgb(0,178,200); 
+  text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+  font-size: 16px;  
+  border: 0px; 
+  border-radius: 4px; 
+  margin-top: 10px; 
+  cursor:pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 input[type='submit']:hover {
-	background-color: rgb(112,128,144);
+  background-color: rgb(47,79,79);
 }
 h3{
-	font-family: 'Roboto Condensed', sans-serif;
-	color: white;
-	text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-align: center;
 }
 h1{
-	font-family: 'Shadows Into Light', cursive;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	padding-top: 150px;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
 }
 #lightbulb{
-	display: block;
+  display: block;
     margin: 0 auto;
-	width: 100px;
+  width: 100px;
 }
 .navbar {
       position: fixed;
@@ -104,7 +102,7 @@ h1{
   padding: 7px 14px;
 }
 #needpadding{
-	padding-top: 10px;
+  padding-top: 10px;
 }
 footer { 
     background-color: rgba(0,0,0,0.9);
@@ -138,11 +136,27 @@ container-fluid{
   padding-bottom: 10px;
 }
 #footerSep{
-	padding-bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  font-size: 21px;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 #nolink:hover{
   color: white;
 }
 .embedded-chat {
     margin: 0 auto; 
+}
+.bg-1{
+  background-image: url(https://i.imgsafe.org/606d8777d4.jpg);
+  padding-top: 200px;
+}
+a:link, a:visited, a:active{
+  color: yellow;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(240,230,140);
+  text-decoration: none !important;
 }
