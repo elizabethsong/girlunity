@@ -117,7 +117,7 @@
           <ul>Elizabeth Song</ul>
           <ul>Karina Sarango</ul>
           <ul>Suchita Mistry</ul>
-          <ul><a id="nolink" href="aboutus_funny.html">Girl Unity™ 2016</a></ul>
+          <ul><a id="nolink" href="../aboutus_funny.html">Girl Unity™ 2016</a></ul>
         </footer>
 <?php } ?>
 </body>
