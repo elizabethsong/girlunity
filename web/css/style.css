@@ -181,9 +181,7 @@ a:hover{
   text-decoration: none !important;
 }
 #nolink a:link, a:visited, a:active{
-  color: white;
-}
-#nolink a:hover{
-  color: white;
+  color: pink;
+  text-decoration: none;
 }
 
