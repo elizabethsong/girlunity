@@ -95,9 +95,9 @@
         </nav>
 
 
-<h1>girl unity</h1> 
+<div class="container-fluid bg-2"> 
 <img id="lightbulb" src="../images/faviconteal2.png" alt="girl unity Lightbulb"> 
-<h3>Registration (Mentee)</h3>
+<h1>Registration (Mentee)</h1>
 <div class="form">
 
 <form name="registration" action="" method="post">
@@ -108,6 +108,7 @@
 
 
 </form>
+</div>
 <p>Register as a mentor instead? <a href='registration.php'>Register Here</a></p>
 <p id="footerSep">Already registered? <a href='login.php'>Log In Here</a></p>
 </div>
