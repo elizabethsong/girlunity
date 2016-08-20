@@ -63,7 +63,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
 
 <p>If the webcam is not working, either change your browser (Firefox works best) or click <a href="https://appear.in/girl-unity">here if you are using either Chrome, Opera, or Firefox.</a></p>
-</div>
+
 <iframe src="https://appear.in/girl-unity" width="800" height="640" frameborder="0"></iframe>
 
 <div id="tlkio" data-channel="girl-unity" style="width:100%;height:400px;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
@@ -71,7 +71,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 
 <p><a href="index.php">Dashboard</a></p>
 <p id="footerSep"><a href="logout.php">Logout</a></p>
-
+</div>
 
 		<footer class="container-fluid text-center" id="bottom">
 		  <p id="contact">Contact Us: <a href="mailto:girlunity.contact@gmail.com">girlunity.contact@gmail.com</a></p> 
