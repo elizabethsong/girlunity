@@ -172,6 +172,11 @@ container-fluid{
   background-image: url(https://i.imgsafe.org/606d8777d4.jpg);
   padding-top: 200px;
 }
+.bg-3{
+  background-color: rgb(100,149,237);
+  padding-top: 200px;
+}
+
 #nolink a:hover{
   color: white !important;
 }
