@@ -20,7 +20,6 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 	<meta charset="utf-8">
 	<title>My Profile | girl unity</title>
 	<link rel="stylesheet" href="../css/style.css" />
-	<link rel="stylesheet" href="../css/style.css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -69,7 +68,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <div id="tlkio" data-channel="girl-unity" style="width:100%;height:400px;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
 
 
-<p><a href="index.php">Dashboard</a></p>
+
 <p id="footerSep"><a href="logout.php">Logout</a></p>
 </div>
 

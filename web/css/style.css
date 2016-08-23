@@ -23,11 +23,11 @@ body a {
 }
 
 .form{
-  width: 400px; 
+  width: 300px; 
   margin: 0 auto;
 }
 input[type='text'], input[type='email'], input[type='password'] {
-  width: 400px; 
+  width: 300px; 
   border-radius: 2px;border: 1px solid #CCC; 
   padding: 10px; color: #333; 
   font-size: 14px; 
