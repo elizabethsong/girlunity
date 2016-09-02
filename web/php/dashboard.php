@@ -59,7 +59,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <div class="container-fluid bg-3">
 
 <h1><?php echo $_SESSION['username']; ?>'s Profile</h1>
-<p>Welcome <?php echo $_SESSION['username']; ?>!</p>
+<p>Welcome <?php echo $_SESSION['username']; ?>! You will be matched shortly.</p>
 
 <p>If the webcam is not working, either change your browser (Firefox works best) or click <a href="https://appear.in/girl-unity">here if you are using either Chrome, Opera, or Firefox.</a></p>
 
