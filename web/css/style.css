@@ -169,7 +169,7 @@ container-fluid{
     margin: 0 auto; 
 }
 .bg-1{
-  background-image: url(https://i.imgsafe.org/606d8777d4.jpg);
+  background-image: url("../images/login.jpg");
   padding-top: 200px;
 }
 .bg-3{
