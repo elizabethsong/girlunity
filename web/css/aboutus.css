@@ -134,6 +134,7 @@ h3{
 hr {
   border: dashed;
   height: 5px;
+  color: black;
 }
   #link1,#link2,#link3,#link4{
     visibility: hidden;
