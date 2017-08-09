@@ -17,11 +17,6 @@
 .navbar-nav  li a:hover {
       color: black !important;
   }
-#name{
-  font-family: 'Shadows Into Light', cursive;
-  color: black;
-  font-weight: bold;
-}
 .navbar-brand {
   padding: 0px;
   display: flex;
@@ -33,26 +28,31 @@
   width: auto;
   padding: 7px 14px;
 }
+#name{
+  font-family: 'Shadows Into Light', cursive;
+  color: black;
+  font-weight: bold;
+}
+
 body {
       font-family: 'Roboto Condensed', sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      background-color: rgb(72,209,204);
+      background-color: white;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 10px;
         letter-spacing: 2px;
 
   }
-
 h2{
   font-family: 'Shadows Into Light', cursive;
-  color: white;
+  color: black;
   font-size: 70px;
   text-align: center;
 }
 #meet{
 
-  color: white;
+  color: black;
   font-size: 50px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -67,14 +67,14 @@ h2{
 
 h3{
   font-family: 'Crimson Text', serif;
-  color: white;
+  color: black;
   text-align: left;
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
 }
 h1{
   font-family: 'Crimson Text', serif;
-  color: white;
+  color: black;
   text-align: center;
 }
 p.test{
@@ -85,7 +85,7 @@ p.test{
 h4{
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 2px;
-  color: white;
+  color: black;
   text-align: center; 
   font-size: 40px;
   padding-top: 20px;
@@ -95,20 +95,24 @@ footer {
     max-height: 100%;
     text-decoration: none;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 
   }
 footer a:link, a:visited {
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
 footer a:hover {
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
     color: yellow;
 }
 
 footer a:active {
     text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
@@ -135,12 +139,13 @@ hr {
     visibility: hidden;
   }
 p{
-  font-size: 25px;
-  text-align: center;
-  letter-spacing: 2px;
-    font-family: 'Roboto Condensed', sans-serif;
-   padding-right: 50px;
-      padding-left: 50px;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0px;
+    font-family: 'Open Sans', sans-serif;
+   padding-right: 100px;
+      padding-left: 100px;
+      color: black;
 
 }
 #e{
@@ -165,16 +170,19 @@ p{
 }
 
 a:link, a:active, a:visited{
-  color: blue;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
 }
 
 a:hover, #su:hover, #ka:hover, #el:hover, #vi:hover{
   text-decoration: none;
-  color: yellow;
+  color: grey;
+  
 }
 
 a, #su, #ka, #el, #vi{
-  color: blue;
+  color: black;
 }
 
 
