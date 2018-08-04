@@ -100,7 +100,7 @@ margin-right:auto;
       left: 0;
       top: 0;
 
-      background-color: white;
+      background-color: rgba(248,248,255,0.9);
       font-family: 'Hind Guntur', sans-serif;
   }
 .navbar-nav  li a:hover {
