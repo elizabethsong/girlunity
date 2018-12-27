@@ -74,10 +74,10 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 
 		<footer class="container-fluid text-center" id="bottom">
 		  <p id="contact">Contact Us: <a href="mailto:girlunity.contact@gmail.com">girlunity.contact@gmail.com</a></p> 
-		  <ul>Elizabeth Song</ul>
-		  <ul>Karina Sarango</ul>
-		  <ul>Suchita Mistry</ul>
-		<ul><a id="nolink" href="../aboutus_funny.html" style="color: white;">Girl Unity™ 2016</a></ul>
+		  <ul>Elizabeth</ul>
+		  <ul>Karina</ul>
+		  <ul>Suchita</ul>
+		<ul><a id="nolink" href="../aboutus_funny.html" style="color: white;">Girl Unity™ 2018</a></ul>
 		</footer>
 </body>
 </html>
